@@ -4,7 +4,8 @@ export default [
     title: "Look 0",
     author: "Filippo Fior",
     info: "https://www.filippofior.com",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
     url: "https://assets.vogue.com/photos/633c4572cef9958faad1c727/master/w_1920,c_limit/00064-miu-miu-spring-2023-ready-to-wear-credit-gorunway.jpg",
     date: new Date("2022-10-04").toISOString().split("T")[0],
     rating: 3.6,
@@ -14,7 +15,8 @@ export default [
     title: "Look 1",
     author: "Filippo Fior",
     info: "https://www.filippofior.com",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
     url: "https://assets.vogue.com/photos/633c44c7bc831d520158c58c/master/w_960,c_limit/00001-miu-miu-spring-2023-ready-to-wear-credit-gorunway.jpg",
     date: new Date("2022-10-04").toISOString().split("T")[0],
     rating: 2.33,
@@ -24,7 +26,8 @@ export default [
     title: "Look 2",
     author: "Filippo Fior",
     info: "https://www.filippofior.com",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
     url: "https://assets.vogue.com/photos/633c44c68e3cef1a09b66573/master/w_960,c_limit/00002-miu-miu-spring-2023-ready-to-wear-credit-gorunway.jpg",
     date: new Date("2022-10-04").toISOString().split("T")[0],
     rating: 2.4,
@@ -34,7 +37,8 @@ export default [
     title: "Look 3",
     author: "Filippo Fior",
     info: "https://www.filippofior.com",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
     url: "https://assets.vogue.com/photos/633c44c4221b3e888d977db4/master/w_960,c_limit/00003-miu-miu-spring-2023-ready-to-wear-credit-gorunway.jpg",
     date: new Date("2022-10-04").toISOString().split("T")[0],
     rating: 2.1,
@@ -44,7 +48,8 @@ export default [
     title: "Look 4",
     author: "Filippo Fior",
     info: "https://www.filippofior.com",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
     url: "https://assets.vogue.com/photos/633c44c9221b3e888d977db6/master/w_960,c_limit/00004-miu-miu-spring-2023-ready-to-wear-credit-gorunway.jpg",
     date: new Date("2022-10-04").toISOString().split("T")[0],
     rating: 3.8,
@@ -54,7 +59,8 @@ export default [
     title: "Look 5",
     author: "Filippo Fior",
     info: "https://www.filippofior.com",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
     url: "https://assets.vogue.com/photos/633c44ce93cd231845634554/master/w_960,c_limit/00005-miu-miu-spring-2023-ready-to-wear-credit-gorunway.jpg",
     date: new Date("2022-10-04").toISOString().split("T")[0],
     rating: 3.12,
@@ -64,7 +70,8 @@ export default [
     title: "Look 6",
     author: "Filippo Fior",
     info: "https://www.filippofior.com",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
     url: "https://assets.vogue.com/photos/615c894e2d0f198d34e33f69/master/w_2240,c_limit/00006-Miu-Miu-Spring-22-RTW-Paris-credit-gorunway.jpg",
     date: new Date("2022-10-04").toISOString().split("T")[0],
     rating: 4,
@@ -74,7 +81,8 @@ export default [
     title: "Look 7",
     author: "Filippo Fior",
     info: "https://www.filippofior.com",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
     url: "https://assets.vogue.com/photos/633c44cfbdca1bea762e6b6b/master/w_960,c_limit/00007-miu-miu-spring-2023-ready-to-wear-credit-gorunway.jpg",
     date: new Date("2022-10-04").toISOString().split("T")[0],
     rating: 4.88,
@@ -84,7 +92,8 @@ export default [
     title: "Look 8",
     author: "Filippo Fior",
     info: "https://www.filippofior.com",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
     url: "https://assets.vogue.com/photos/633c44d465f1db8560e4f9b7/master/w_960,c_limit/00008-miu-miu-spring-2023-ready-to-wear-credit-gorunway.jpg",
     date: new Date("2022-10-04").toISOString().split("T")[0],
     rating: 0.02,
@@ -94,7 +103,8 @@ export default [
     title: "Look 9",
     author: "Filippo Fior",
     info: "https://www.filippofior.com",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
     url: "https://assets.vogue.com/photos/633c44d3bc831d520158c590/master/w_960,c_limit/00009-miu-miu-spring-2023-ready-to-wear-credit-gorunway.jpg",
     date: new Date("2022-10-04").toISOString().split("T")[0],
     rating: 4,
@@ -104,7 +114,8 @@ export default [
     title: "Look 10",
     author: "Filippo Fior",
     info: "https://www.filippofior.com",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
     url: "https://assets.vogue.com/photos/633c44d565f1db8560e4f9b9/master/w_960,c_limit/00010-miu-miu-spring-2023-ready-to-wear-credit-gorunway.jpg",
     date: new Date("2022-10-04").toISOString().split("T")[0],
     rating: 1.98,
@@ -114,7 +125,8 @@ export default [
     title: "Look 11",
     author: "Filippo Fior",
     info: "https://www.filippofior.com",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
     url: "https://assets.vogue.com/photos/633c44dc221b3e888d977dbb/master/w_960,c_limit/00011-miu-miu-spring-2023-ready-to-wear-credit-gorunway.jpg",
     date: new Date("2022-10-04").toISOString().split("T")[0],
     rating: 3.56,
@@ -124,7 +136,8 @@ export default [
     title: "Look 12",
     author: "Filippo Fior",
     info: "https://www.filippofior.com",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel.",
     url: "https://assets.vogue.com/photos/633c44dae07b35aed60750ec/master/w_960,c_limit/00012-miu-miu-spring-2023-ready-to-wear-credit-gorunway.jpg",
     date: new Date("2022-10-04").toISOString().split("T")[0],
     rating: 3.4,

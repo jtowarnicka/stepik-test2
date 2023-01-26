@@ -1,8 +1,9 @@
 {
   "name": "react",
-  "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "prettier": "^2.8.3",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },
@@ -10,18 +11,15 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "npx eslint ."
   },
   "devDependencies": {
     "eslint": "^8.32.0",
-    "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.1",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "2.8.3",
     "react-scripts": "latest"
   },
   "browserslist": {
@@ -35,15 +33,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:react-hooks/recommended",
-    "plugin:jsx-a11y/recommended"
-  ],
-  "plugins": [
-    "react-hooks",
-    "jsx-a11y"
-  ]
+  }
 }

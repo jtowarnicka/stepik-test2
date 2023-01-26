@@ -1,10 +1,16 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 
 export const useNavigate = (min, max) => {
   const [currentStep, setCurrentStep] = useState(0);
 
-  const nextStep = () => setCurrentStep(currentStep + 1);
-  const prevStep = () => setCurrentStep(currentStep - 1);
+  const nextStep = useCallback(
+    () => setCurrentStep(currentStep + 1),
+    [currentStep]
+  );
+  const prevStep = useCallback(
+    () => setCurrentStep(currentStep - 1),
+    [currentStep]
+  );
 
   useEffect(() => {
     const handleKeyDown = (event) => {
@@ -16,7 +22,7 @@ export const useNavigate = (min, max) => {
     };
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [currentStep]);
+  }, [currentStep, max, min, nextStep, prevStep]);
 
   return { currentStep, nextStep, prevStep };
 };
